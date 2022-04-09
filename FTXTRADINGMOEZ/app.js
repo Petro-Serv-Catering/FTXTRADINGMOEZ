@@ -25,6 +25,7 @@ var recursiveAsyncReadLine = function () {
           
         if (answer == "tickers")
             return rl.close();
+            //TODO
             //fetchTi.fetch();
         console.log('\n\n The answer is not clear ! Your answer was: "', answer, '"\n\n\n');
         recursiveAsyncReadLine(); 
